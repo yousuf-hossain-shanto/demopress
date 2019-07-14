@@ -1,0 +1,69 @@
+.temp input[type=email], .temp input[type=password] {
+    padding: 15px !important;
+    margin: 5px 0 22px 0 !important;
+    min-width: 50% !important;
+    max-width: 90% !important;
+    display: block !important;
+    border: none !important;
+    background: #f1f1f1 !important;
+}
+
+.temp input[type=email]:focus, .temp input[type=password]:focus {
+    background-color: #ddd !important;
+    outline: none !important;
+}
+
+.temp hr {
+    border: 1px solid #f1f1f1 !important;
+    margin-bottom: 25px !important;
+}
+
+/* Set a style for all buttons */
+.temp button {
+    background-color: #4CAF50 !important;
+    color: white !important;
+    padding: 14px 20px !important;
+    margin: 8px 0 !important;
+    border: none !important;
+    cursor: pointer !important;
+    opacity: 0.9 !important;
+}
+
+.temp button:hover {
+    opacity:1 !important;
+}
+
+/* Extra styles for the cancel button */
+.temp .cancelbtn {
+    padding: 14px 20px !important;
+    background-color: #f44336 !important;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.temp .cancelbtn, .temp .signupbtn {
+    float: left !important;
+}
+
+/* Add padding to cont elements */
+.temp .cont {
+    padding: 16px !important;
+}
+
+/* Clear floats */
+.temp .clearfix::after {
+    content: "" !important;
+    clear: both !important;
+    display: table !important;
+}
+
+.temp .err {
+    display: none;
+    color: #E50000 !important;
+    font-weight: bold !important;
+}
+
+.temp .success {
+    display: none;
+    color: #4b5ae5 !important;
+    font-weight: bold !important;
+}
